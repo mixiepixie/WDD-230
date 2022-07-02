@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat+Alternates:wght@300&family=Zilla+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Merriweather:wght@300&family=Montserrat+Alternates:wght@300&family=Zilla+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Merriweather:wght@300&family=Montserrat+Alternates:wght@300&family=Pinyon+Script&family=Trirong:ital,wght@0,400;1,700&family=Trirong&family=Zilla+Slab:wght@600&display=swap');
+
+
+*{
+  color: #0f3091;
+
+}
+
+body{
+  font-family: 'Trirong', serif; 
+}
+
+footer{
+  background-color: #15b8dc;
+  margin-right: 30px;
+}
+
+body{
+  margin: auto;
+  max-width: 650px;
+  background-color:#eaf6ff;
+
+}
+
+header{
+  display: grid;
+  grid-template-columns: fit-content(20px) fit-content(500px) 1fr; 
+  /* grid-template-rows: 200px 1fr;
+  /* display: flex; */
+  
+  align-items: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  background-color: white;
+  margin-right: 30px;
+}
+
+
+
+.site_name{
+  margin-top: -.1px;
+  font-size: 2.5em;
+  
+}
+
+.chamberofcommerce{
+  /* background-color: rgb(191, 65, 206); */
+  grid-column: 2/3;
+  margin-top: -2.5em;
+  grid-auto-flow: column;
+  margin-left: -.5px;
+  font-size: 1.5em;
+  font-family: 'Pinyon Script', cursive;
+  
+}
+
+
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: purple;
+}
+
+main{
+  background-color: white;
+  text-align: center;
+}
+
+li{
+  display: inline;
+  box-sizing: border-box;
+}
+
+li a {
+  display: inline;
+  padding: 8px;
+  background-color: #15b8dc;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.scenariosList{
+  list-style-type: square;
+}
+
+.style_guide{
+  display: flex;
+  
+}
+/* 
+.logoh3{
+  /* float: right; */
+  /* text-align: center; */
+
+
+ /* /* main img{
+  /* float: right; */
+
+main :nth-child(5){
+  background-color: pink;
+}
+
+/* p:nth-child(1) */

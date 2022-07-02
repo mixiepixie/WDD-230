@@ -1,0 +1,61 @@
+{
+  "companies": [
+    {
+      "imageurl": "https://greaterbentonville.com/wp-content/uploads/2021/01/AMAZEUM.jpg",
+      "company": "Amazeum",
+      "address": "1009 Museum Way Bentonville AR, 72712",
+      "telnum": "479-696-9280",
+      "websiteurl": "https://www.amazeum.org/"
+    },
+    {
+      "imageurl": "https://greaterbentonville.com/wp-content/uploads/2021/01/CB.jpg",
+      "company": "Crystal Bridges",
+      "address": "600 Museum Way, Bentonville, AR 72712",
+      "telnum": "479-418-5700",
+      "websiteurl": "http://crystalbridges.org/"
+    },{
+      "imageurl": "https://greaterbentonville.com/wp-content/uploads/2021/01/MO.jpg",
+      "company": "The Momentary",
+      "address": "507 SE E St, Bentonville, AR 72712",
+      "telnum": "479-367-7500",
+      "websiteurl": "https://themomentary.org/"
+    },{
+      "imageurl": "https://greaterbentonville.com/wp-content/uploads/2021/01/OZTRAILS.jpg",
+      "company": "Oz Trails",
+      "address": "1003 S Main St Suite 7, Bentonville, AR 72712",
+      "telnum": "479-553-9690",
+      "websiteurl": "https://www.amazeum.org/"
+    },{
+      "imageurl": "https://greaterbentonville.com/wp-content/uploads/2021/01/FLYOZ.jpg",
+      "company": "Fly Oz",
+      "address": "110 NW 2nd St, Bentonville, AR 72712",
+      "telnum": "479-367-6696",
+      "websiteurl": "https://www.flyoz.com/our-story"
+    },{
+      "imageurl": "https://greaterbentonville.com/wp-content/uploads/2021/01/JUNKIE.jpg",
+      "company": "Startup Junkie",
+      "address": "1 E Center Street, Suite 270 Fayetteville, AR 72701",
+      "telnum": "479-310-6261",
+      "websiteurl": "https://www.startupjunkie.org/contact"
+    },{
+      "imageurl": "https://greaterbentonville.com/wp-content/uploads/2021/01/THADEN.jpg",
+      "company": "Thaden School",
+      "address": "800 SE C Street | Bentonville, AR 72712",
+      "telnum": "479-268-5321",
+      "websiteurl": "https://thadenschool.org/"
+    },{
+      "imageurl": "https://greaterbentonville.com/wp-content/uploads/2021/01/DBI-1.jpg",
+      "company": "Downtown Bentonville",
+      "address": "103 South Main Street Bentonville, AR 72712",
+      "telnum": "479-295-2396",
+      "websiteurl": "https://www.downtownbentonville.org/"
+    },
+    {
+      "imageurl": "https://greaterbentonville.com/wp-content/uploads/2021/01/NWATS.jpg",
+      "company": "NWA Tech Summit",
+      "address": "103 South Main Street Bentonville, AR 72712",
+      "telnum": "479-273-2841",
+      "websiteurl": "https://www.nwatechsummit.com/"
+    }
+  ]
+}

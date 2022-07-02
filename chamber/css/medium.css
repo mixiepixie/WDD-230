@@ -1,0 +1,67 @@
+@media only screen and (min-width: 32.5em) {
+
+  .logo{
+    width: 75px;
+  }
+
+  .headings h1{
+    font-size: 1.6em;
+  }
+
+  .headings h2{
+    margin-top: -20px;
+    font-size: 1.3em;
+   
+  }
+
+  main{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* grid-template-rows: repeat(5, 1fr); */
+    grid-template-rows: repeat(auto-fit, minmax(20px, 1fr));
+  }
+  
+/* 
+  .banner{
+    grid-column: 1/-1;
+    /* width: 100vw; */
+
+    /* grid-row: 1/2; */
+  
+
+  .hero_image{
+    grid-column: 1/6;
+    /* grid-row: 1/2; */
+  }
+
+  
+
+  .news{
+    grid-column: 1/6;
+    /* grid-row: 2/3; */
+  }
+
+  .spotlights{
+    grid-column: 1/6;
+    /* grid-row:3/4; */
+    display: flex;
+    justify-content: space-evenly;
+    /* gap: 10px;
+    flex-grow: 1; */
+  }
+
+  .join{
+    grid-column: 1/6;
+    /* grid-row: 4/5; */
+  }
+
+  .events{
+    grid-column: 1/4;
+    /* grid-row:5/6; */
+  }
+
+  .weather{
+    grid-column: 4/6;
+    /* grid-row: 5/6; */
+  }
+}

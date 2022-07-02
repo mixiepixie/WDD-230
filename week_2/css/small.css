@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+  font-family: 'Inconsolata', monospace;
+}
+
+h1, h2, h3, h4{
+  font-family: 'Bebas Neue', cursive;
+}
+
+h3{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+h3, h4, p{
+  margin: 5px;
+}
+
+header{
+  background-color: rgb(24, 15, 81);
+  color: rgb(224, 223, 218);
+  text-align: center;
+  margin: 10px;
+  padding: 2px;
+  min-width: 150px;
+}
+main{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+main section{
+  margin: .75em;
+  background-color: lightgrey;
+  border-radius: 20px;
+  border: solid 3px rgb(24, 15, 81);
+}
+img{
+  width:100%;
+}

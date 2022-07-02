@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Michal Garcia">
+  <meta name="description" content="Site plan for Chamber of Commerce semester project">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/medium.css" />
+  <link rel="stylesheet" href="css/large.css" />
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+
+  <title>WDD 230: Better Bentonville chamber of commerce</title>
+</head>
+<body>
+
+<header>
+  <!-- <section class="row1header" -->
+  <img class="logo" src="images/bench_logo.png" alt="logo Better Bentonville" >
+  <section class="headings">
+    <h1 class="site_name">Better <br>Bentonville</h1>
+    <h2 class="chamberofcommerce">Chamber of Commerce</h2>
+  </section>
+  
+  <i class="icon ion-logo-facebook"></i>
+  <i class="icon ion-logo-linkedin"></i>
+
+  <nav>
+    <!-- <button id="hamburgerBtn">&#9776;</button> -->
+    <ul id="primaryNav" class="navigation">
+      <li class="hamburger"><a href="#"  onclick="toggleMenu()">&#9776; Menu</a></li>
+      <section class="drop-downlist-items">
+        <li><a href="/">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </section>
+    </ul>
+  </nav>
+  
+
+  <!-- <div class="date"></div> -->
+  <section class="date"><aside></aside></section>
+</header>
+
+  <main class="joinMain">
+    <h2>Join Us!</h2>
+    <div class="yourInfo"><h1>Create your Account</h1>
+      <form method="get" action="thankyou.html">
+          <fieldset>
+              <legend>Your Information</legend>
+              <label class="top">First Name* <input type="text" name="fname" required></label>
+              <label class="top">Last Name* <input type="text" name="lname" required></label>
+              <!-- REMEMBER! LINE BELOW MUST BE FORMATTED CORRECTLY(GO BACK TO W08 ASSIGN. JOIN PAGE) -->
+              <label class="top">Business Position <input type="text" name="bisPosition"></label>
+
+              <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+              <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+              <label class="top">Business Name* <input type="text" name="bisName" required></label>
+          </fieldset>
+
+          <fieldset>
+              <legend>Membership Selection</legend>
+              <!-- <div>Audience</div> -->
+              <label class="sbs"><input type="radio" name="audience" value="npMembership">NP Membership</label>
+              <label class="sbs"><input type="radio" name="audience" value="bronzeMembership">Bronze Membership</label>
+              <label class="sbs"><input type="radio" name="audience" value="silverMembership">Silver Membership</label>
+              <label class="sbs"><input type="radio" name="audience" value="Gold Membership">Gold Membership</label>
+          </fieldset>
+
+          <!-- ?should the lines below have a <label> tag? -->
+          <input type="hidden" name="date" value="CurrentTime"> 
+          <input type="hidden" name="time" value="CurrentDate">
+
+      
+          <input type="submit" value="Join the Chamber" class="submitBtn">
+
+      </form></div>
+
+      
+    <div class="membershipInfo">Membership Information</div>
+
+  </main>
+
+  <footer>
+    <img class="logo" src="images/bench_logo.png" alt="logo Better Bentonville" >
+    <section>
+      <p>contact information</p> 
+      <p>a link to a map</p>
+      <p id="copyright">&copy; (copyright year js) - Better Bentonville chamber of commerce - Michal Garcia - WDD 230 Project<br>Last Modified: </p>
+      <div id="lastmod"></div>
+  </section>
+  </footer>
+  <script src="js/current-date.js"></script>
+  <script src="js/last-mod.js"></script>
+  <script src="js/toggle-menu.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+</body>
