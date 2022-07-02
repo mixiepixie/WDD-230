@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"name": "wdd230",
+			"path": "../.."
+		},
+		{
+			"name": "start",
+			"path": "../../../../Downloads/start"
+		},
+		{
+			"name": "personal_project",
+			"path": "../../../../javascript_basics(cse_121B)/week_6/personal_project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "wdd230"
+	}
+}
