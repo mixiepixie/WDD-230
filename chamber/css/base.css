@@ -10,6 +10,14 @@ html{
 
 }
 
+main{
+	background-color: #EAF6FF;
+}
+
+div, main section{
+	background-color: rgb(255, 233, 253);
+}
+
 
 picture img{
 	width: 100%; /* or any custom size */
@@ -30,26 +38,37 @@ align-self: stretch;
 
 }
 
-.logo{
+/* .logo{
 width: 58px;
-/* place-self: center; */
+/* place-self: center; 
 margin: 20px;
 
-}
+
 
 
 /* .headings{
 grid-row: 1/5;
 } */
 
+.logo{
+  width: 58px;
+  place-self: center;
+	margin: 0;
+  margin: 5px; 
+  float: left;
+  
+	margin-right
+
+}
+
 .headings h1{
 font-family: 'Montserrat Alternates', sans-serif;
-font-size: 1.1em;
+font-size: .9em;
 }
 
 .headings h2{
 margin-top: -10px;
-font-size: 1em;
+font-size: .8em;
 font-family: 'Pinyon Script', cursive;
 
 }
@@ -78,19 +97,19 @@ grid-row: 2/3;
 grid-column: 1/6;
 }
 
-nav li{
-display: none;
-}
+
 
 .hamburger{
 display: block;
 grid-column: 5/6;
-
+text-decoration: none;
+font-size: 1em;
+margin: 0;
 }
 
 nav ul li{
-/* text-decoration: none; */
-margin: 12px;
+	display: none;
+/* margin: 12px; */
 padding: 10px;
 
 }
@@ -103,7 +122,7 @@ margin: 11px;
 }
 
 i{
-font-size: 30px;
+font-size: 20px;
 align-self: center;
 margin: 5px;
 }
@@ -289,8 +308,9 @@ footer{
 /* discover page css below */
 
 .discoverMain{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+	display: inline;
+	max-width: 500px;
+  margin: auto;
 	border: solid black;
 	column-gap: 20px;
 }
@@ -312,6 +332,9 @@ footer{
 	height:auto; */
 	height: 300px;
 	width: 400px;
+	min-width: 280px;
+	
+	object-fit: cover;
 	
 }
 
@@ -320,12 +343,18 @@ footer{
 	display:grid;
 	row-gap: 10px;
 	align-items:stretch;
+	
 	/* row-gap: 20px; */
 }
 
 .discoverGraphs div{
 	border:#0f3091 solid;
 	padding: 1em;
+	max-width: 400px;
+}
+
+.discoverGraphs img{
+	width: 100%;
 }
 
 /* directory page css below */

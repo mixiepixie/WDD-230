@@ -37,7 +37,7 @@
     <nav>
       <!-- <button id="hamburgerBtn">&#9776;</button> -->
       <ul id="primaryNav" class="navigation">
-        <li class="hamburger"><a href="#"  onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li class="hamburger"><a href="#"  onclick="toggleMenu()">&#9776;</a></li>
         <section class="drop-downlist-items">
           <li><a href="index.html">Home</a></li>
           <li><a href="discover.html">Discover</a></li>
@@ -57,14 +57,8 @@
 
   <main>
     <section class="hero_image">
-      <!-- <figure>
-        <img src=""
-      </figure> -->
       <picture>
-        <!-- <source srcset="images/bent-field486x469.jpg" media="(min-width: 520px) and (max-width: 1008)">
-        <source srcset="images/bent-field1000x966.jpg" media="(min-width: 1009px)">
-        <img src="images/bent-field486x469.jpg" alt="Arkansas field"> -->
-
+  
         <source srcset="images/arkfield-520w249h-small.jpg" media="(min-width: 20px) and (max-width: 520px)">
         <source srcset="images/arkfield-1009w484h-med.jpg" media="(min-width: 521px) and (max-width:1009px)">
         <source srcset="images/arkfield-1000w955h-large.jpg" media="(min-width: 1010px)">
@@ -81,7 +75,15 @@
       <h3>Event(s)</h3>
       <img src="images/firstfriday.png" alt="first friday event">
     </section>
-    <section class="weather"><h3>Weather</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perspiciatis iste neque corrupti nulla odio id, assumenda nesciunt voluptates molestiae explicabo mollitia cupiditate? Neque est suscipit impedit, illum asperiores recusandae!</p></section> 
+    <section class="weather"><h3>Weather</h3>
+      <p>The current temperature in Bentonville, Arkansas is <span id="current-temp"></span> &deg;F</p>
+      <p>Wind Speed: <span id="wind-speed">mph</span></p>
+      <p>Wind Chill: <span id="wind-chill"></span></p>
+      <figure>
+        <img src="" alt="" id="weather-icon" />
+        <figcaption></figcaption>
+      </figure></section> 
+
     <section class="join"><h3>Join</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perspiciatis iste neque corrupti nulla odio id, assumenda nesciunt voluptates molestiae explicabo mollitia cupiditate? Neque est suscipit impedit, illum asperiores recusandae!</p></section>    
     <section class="spotlights">
       <section class="spotlight1"><div><img class="logo" src="https://greaterbentonville.com/wp-content/uploads/2021/01/CB.jpg" alt="Crystal Bridges logo"><h3>Crystal Bridges</h3><p>600 Museum Way, Bentonville, AR 72712</p><p>479-418-5700</p><p>http://crystalbridges.org/</p></div></section>
@@ -103,6 +105,7 @@
   <script src="js/current-date.js"></script>
   <script src="js/last-mod.js"></script>
   <script src="js/toggle-menu.js"></script>
+  <script src="js/weatherapi.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
 </body>

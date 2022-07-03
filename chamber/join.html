@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Michal Garcia">
-  <meta name="description" content="Site plan for Chamber of Commerce semester project">
+  <meta name="description" content="Chamber of Commerce semester project">
   <link rel="shortcut icon" href="images/favicon.ico">
   <link rel="stylesheet" href="css/base.css" />
   <link rel="stylesheet" href="css/medium.css" />
@@ -32,7 +32,7 @@
     <ul id="primaryNav" class="navigation">
       <li class="hamburger"><a href="#"  onclick="toggleMenu()">&#9776; Menu</a></li>
       <section class="drop-downlist-items">
-        <li><a href="/">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="discover.html">Discover</a></li>
         <li><a href="directory.html">Directory</a></li>
         <li><a href="join.html">Join</a></li>
@@ -52,13 +52,13 @@
       <form method="get" action="thankyou.html">
           <fieldset>
               <legend>Your Information</legend>
-              <label class="top">First Name* <input type="text" name="fname" required></label>
-              <label class="top">Last Name* <input type="text" name="lname" required></label>
+              <label class="top">First Name* <input type="text" name="fname" onkeyup="lettersOnly(this)" required></label>
+              <label class="top">Last Name* <input type="text" name="lname" onkeyup="lettersOnly(this)" required></label>
               <!-- REMEMBER! LINE BELOW MUST BE FORMATTED CORRECTLY(GO BACK TO W08 ASSIGN. JOIN PAGE) -->
-              <label class="top">Business Position <input type="text" name="bisPosition"></label>
+              <label class="top">Business Position <input type="text" name="bisPosition" onkeyup="lettersAndNumbers(this)" pattern="[A-Za-z\-\s]{6,}"></label>
 
               <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-              <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+              <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" onkeyup="numbersOnly(this)" required></label>
               <label class="top">Business Name* <input type="text" name="bisName" required></label>
           </fieldset>
 
@@ -98,5 +98,6 @@
   <script src="js/last-mod.js"></script>
   <script src="js/toggle-menu.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+  <script src="js/join.js"></script>
 <script nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
 </body>

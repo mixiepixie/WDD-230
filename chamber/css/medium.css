@@ -1,8 +1,8 @@
 @media only screen and (min-width: 32.5em) {
-/* 
+
   .logo{
     width: 75px;
-  } */
+  } 
 
   .headings h1{
     font-size: 1.6em;
@@ -66,4 +66,59 @@
     grid-column: 4/6;
     /* grid-row: 5/6; */
   }
+}
+
+_____
+/* discover */
+
+.discoverMain{
+  max-width:none;
+  margin:0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	border: solid black;
+	column-gap: 20px;
+  
+}
+
+.discoverImages{
+	/* border: solid orangered; */
+	display: grid;
+	row-gap: 10px;
+	align-items:stretch;
+	
+	/* height:auto;
+	overflow:auto; */
+}
+
+.discoverImages img{
+	border:#0f3091 solid;
+	padding: 1em;
+	/* float:right;
+	height:auto; */
+	height: 300px;
+	width: 400px;
+	min-width: 280px;
+	
+	object-fit: cover;
+	
+}
+
+.discoverGraphs{
+	/* border: solid rebeccapurple; */
+	display:grid;
+	row-gap: 10px;
+	align-items:stretch;
+	
+	/* row-gap: 20px; */
+}
+
+.discoverGraphs div{
+	border:#0f3091 solid;
+	padding: 1em;
+	max-width: 400px;
+}
+
+.discoverGraphs img{
+	width: 100%;
 }
