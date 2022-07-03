@@ -14,7 +14,7 @@ main{
 	background-color: #EAF6FF;
 }
 
-div, main section{
+main div, main section{
 	background-color: rgb(255, 233, 253);
 }
 
@@ -49,15 +49,18 @@ margin: 20px;
 /* .headings{
 grid-row: 1/5;
 } */
+.logoAndheadings{
+	display: flex;
+	justify-content: flex-start;
+}
 
 .logo{
   width: 58px;
   place-self: center;
-	margin: 0;
-  margin: 5px; 
+	margin: 5px;
   float: left;
   
-	margin-right
+	margin-right: 10px;
 
 }
 
@@ -121,6 +124,12 @@ border-width: 1px;
 margin: 11px;
 }
 
+.smIcons{
+	display: flex;
+	justify-content: flex-end;
+	background-color: none;
+}
+
 i{
 font-size: 20px;
 align-self: center;
@@ -180,7 +189,7 @@ main{
 	/* height: 200px; */
 	vertical-align: middle;
 	margin: 10px;
-	background-image: url(images/wdd230-org.jpg);
+	/* background-image: url(images/wdd230-org.jpg); */
 	/* max-height: 500px; */
 }
 
