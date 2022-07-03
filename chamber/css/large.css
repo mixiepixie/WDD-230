@@ -1,7 +1,7 @@
 @media only screen and (min-width: 1009px) {
-  /* img{
+  img{
     order: 1;
-  } */
+  }
 
   header{
     display: grid; 
@@ -46,12 +46,11 @@
     display: flex;
   }
 
-  /* .logo{
+  .logo{
     width: 100px;
-    /* place-self: center; */
- 
+    place-self: center;
   }
-   */
+
 
   i{
     order: 4;
@@ -83,7 +82,7 @@
   }
 
   i{
-    font-size: 64px;
+    font-size: 40px;
     /* align-self: center;
     margin: 5px; */
   }
@@ -150,15 +149,3 @@ main{
   grid-row: 1/4;
   display: grid;
 }
-/* .spotlight1{
-	
-	
-}
-
-.spotlight2{
-	
-}
-
-.spotlight3{
-
-} */
